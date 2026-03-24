@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(./config/credentials*)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/credentials)",
+      "Bash(cat .env*)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
+  },
+  "transcriptRetentionDays": 7
+}
